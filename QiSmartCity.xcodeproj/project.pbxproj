@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91FB87221CE2E6CE008AD35D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FB87211CE2E6CE008AD35D /* AppDelegate.swift */; };
+		91FB87241CE2E6CE008AD35D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FB87231CE2E6CE008AD35D /* ViewController.swift */; };
+		91FB87271CE2E6CE008AD35D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91FB87251CE2E6CE008AD35D /* Main.storyboard */; };
+		91FB87291CE2E6CE008AD35D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91FB87281CE2E6CE008AD35D /* Assets.xcassets */; };
+		91FB872C1CE2E6CE008AD35D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91FB872A1CE2E6CE008AD35D /* LaunchScreen.storyboard */; };
+		91FB87371CE2E6CE008AD35D /* QiSmartCityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FB87361CE2E6CE008AD35D /* QiSmartCityTests.swift */; };
+		91FB87421CE2E6CE008AD35D /* QiSmartCityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FB87411CE2E6CE008AD35D /* QiSmartCityUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91FB87331CE2E6CE008AD35D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91FB87161CE2E6CE008AD35D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91FB871D1CE2E6CE008AD35D;
+			remoteInfo = QiSmartCity;
+		};
+		91FB873E1CE2E6CE008AD35D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91FB87161CE2E6CE008AD35D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91FB871D1CE2E6CE008AD35D;
+			remoteInfo = QiSmartCity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		91FB871E1CE2E6CE008AD35D /* QiSmartCity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QiSmartCity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91FB87211CE2E6CE008AD35D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		91FB87231CE2E6CE008AD35D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		91FB87261CE2E6CE008AD35D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91FB87281CE2E6CE008AD35D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91FB872B1CE2E6CE008AD35D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		91FB872D1CE2E6CE008AD35D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91FB87321CE2E6CE008AD35D /* QiSmartCityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QiSmartCityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91FB87361CE2E6CE008AD35D /* QiSmartCityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiSmartCityTests.swift; sourceTree = "<group>"; };
+		91FB87381CE2E6CE008AD35D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91FB873D1CE2E6CE008AD35D /* QiSmartCityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QiSmartCityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91FB87411CE2E6CE008AD35D /* QiSmartCityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiSmartCityUITests.swift; sourceTree = "<group>"; };
+		91FB87431CE2E6CE008AD35D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91FB871B1CE2E6CE008AD35D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FB872F1CE2E6CE008AD35D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FB873A1CE2E6CE008AD35D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91FB87151CE2E6CE008AD35D = {
+			isa = PBXGroup;
+			children = (
+				91FB87201CE2E6CE008AD35D /* QiSmartCity */,
+				91FB87351CE2E6CE008AD35D /* QiSmartCityTests */,
+				91FB87401CE2E6CE008AD35D /* QiSmartCityUITests */,
+				91FB871F1CE2E6CE008AD35D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91FB871F1CE2E6CE008AD35D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91FB871E1CE2E6CE008AD35D /* QiSmartCity.app */,
+				91FB87321CE2E6CE008AD35D /* QiSmartCityTests.xctest */,
+				91FB873D1CE2E6CE008AD35D /* QiSmartCityUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91FB87201CE2E6CE008AD35D /* QiSmartCity */ = {
+			isa = PBXGroup;
+			children = (
+				91FB87211CE2E6CE008AD35D /* AppDelegate.swift */,
+				91FB87231CE2E6CE008AD35D /* ViewController.swift */,
+				91FB87251CE2E6CE008AD35D /* Main.storyboard */,
+				91FB87281CE2E6CE008AD35D /* Assets.xcassets */,
+				91FB872A1CE2E6CE008AD35D /* LaunchScreen.storyboard */,
+				91FB872D1CE2E6CE008AD35D /* Info.plist */,
+			);
+			path = QiSmartCity;
+			sourceTree = "<group>";
+		};
+		91FB87351CE2E6CE008AD35D /* QiSmartCityTests */ = {
+			isa = PBXGroup;
+			children = (
+				91FB87361CE2E6CE008AD35D /* QiSmartCityTests.swift */,
+				91FB87381CE2E6CE008AD35D /* Info.plist */,
+			);
+			path = QiSmartCityTests;
+			sourceTree = "<group>";
+		};
+		91FB87401CE2E6CE008AD35D /* QiSmartCityUITests */ = {
+			isa = PBXGroup;
+			children = (
+				91FB87411CE2E6CE008AD35D /* QiSmartCityUITests.swift */,
+				91FB87431CE2E6CE008AD35D /* Info.plist */,
+			);
+			path = QiSmartCityUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91FB871D1CE2E6CE008AD35D /* QiSmartCity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91FB87461CE2E6CE008AD35D /* Build configuration list for PBXNativeTarget "QiSmartCity" */;
+			buildPhases = (
+				91FB871A1CE2E6CE008AD35D /* Sources */,
+				91FB871B1CE2E6CE008AD35D /* Frameworks */,
+				91FB871C1CE2E6CE008AD35D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QiSmartCity;
+			productName = QiSmartCity;
+			productReference = 91FB871E1CE2E6CE008AD35D /* QiSmartCity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91FB87311CE2E6CE008AD35D /* QiSmartCityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91FB87491CE2E6CE008AD35D /* Build configuration list for PBXNativeTarget "QiSmartCityTests" */;
+			buildPhases = (
+				91FB872E1CE2E6CE008AD35D /* Sources */,
+				91FB872F1CE2E6CE008AD35D /* Frameworks */,
+				91FB87301CE2E6CE008AD35D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91FB87341CE2E6CE008AD35D /* PBXTargetDependency */,
+			);
+			name = QiSmartCityTests;
+			productName = QiSmartCityTests;
+			productReference = 91FB87321CE2E6CE008AD35D /* QiSmartCityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		91FB873C1CE2E6CE008AD35D /* QiSmartCityUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91FB874C1CE2E6CE008AD35D /* Build configuration list for PBXNativeTarget "QiSmartCityUITests" */;
+			buildPhases = (
+				91FB87391CE2E6CE008AD35D /* Sources */,
+				91FB873A1CE2E6CE008AD35D /* Frameworks */,
+				91FB873B1CE2E6CE008AD35D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91FB873F1CE2E6CE008AD35D /* PBXTargetDependency */,
+			);
+			name = QiSmartCityUITests;
+			productName = QiSmartCityUITests;
+			productReference = 91FB873D1CE2E6CE008AD35D /* QiSmartCityUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91FB87161CE2E6CE008AD35D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "University of California San Diego";
+				TargetAttributes = {
+					91FB871D1CE2E6CE008AD35D = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					91FB87311CE2E6CE008AD35D = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 91FB871D1CE2E6CE008AD35D;
+					};
+					91FB873C1CE2E6CE008AD35D = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 91FB871D1CE2E6CE008AD35D;
+					};
+				};
+			};
+			buildConfigurationList = 91FB87191CE2E6CE008AD35D /* Build configuration list for PBXProject "QiSmartCity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91FB87151CE2E6CE008AD35D;
+			productRefGroup = 91FB871F1CE2E6CE008AD35D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91FB871D1CE2E6CE008AD35D /* QiSmartCity */,
+				91FB87311CE2E6CE008AD35D /* QiSmartCityTests */,
+				91FB873C1CE2E6CE008AD35D /* QiSmartCityUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91FB871C1CE2E6CE008AD35D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FB872C1CE2E6CE008AD35D /* LaunchScreen.storyboard in Resources */,
+				91FB87291CE2E6CE008AD35D /* Assets.xcassets in Resources */,
+				91FB87271CE2E6CE008AD35D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FB87301CE2E6CE008AD35D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FB873B1CE2E6CE008AD35D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91FB871A1CE2E6CE008AD35D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FB87241CE2E6CE008AD35D /* ViewController.swift in Sources */,
+				91FB87221CE2E6CE008AD35D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FB872E1CE2E6CE008AD35D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FB87371CE2E6CE008AD35D /* QiSmartCityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FB87391CE2E6CE008AD35D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FB87421CE2E6CE008AD35D /* QiSmartCityUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91FB87341CE2E6CE008AD35D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91FB871D1CE2E6CE008AD35D /* QiSmartCity */;
+			targetProxy = 91FB87331CE2E6CE008AD35D /* PBXContainerItemProxy */;
+		};
+		91FB873F1CE2E6CE008AD35D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91FB871D1CE2E6CE008AD35D /* QiSmartCity */;
+			targetProxy = 91FB873E1CE2E6CE008AD35D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		91FB87251CE2E6CE008AD35D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91FB87261CE2E6CE008AD35D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		91FB872A1CE2E6CE008AD35D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91FB872B1CE2E6CE008AD35D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91FB87441CE2E6CE008AD35D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91FB87451CE2E6CE008AD35D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91FB87471CE2E6CE008AD35D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QiSmartCity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ucsd.eng.QiSmartCity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		91FB87481CE2E6CE008AD35D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QiSmartCity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ucsd.eng.QiSmartCity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		91FB874A1CE2E6CE008AD35D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QiSmartCityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ucsd.eng.QiSmartCityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QiSmartCity.app/QiSmartCity";
+			};
+			name = Debug;
+		};
+		91FB874B1CE2E6CE008AD35D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QiSmartCityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ucsd.eng.QiSmartCityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QiSmartCity.app/QiSmartCity";
+			};
+			name = Release;
+		};
+		91FB874D1CE2E6CE008AD35D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QiSmartCityUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ucsd.eng.QiSmartCityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QiSmartCity;
+			};
+			name = Debug;
+		};
+		91FB874E1CE2E6CE008AD35D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QiSmartCityUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ucsd.eng.QiSmartCityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QiSmartCity;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91FB87191CE2E6CE008AD35D /* Build configuration list for PBXProject "QiSmartCity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91FB87441CE2E6CE008AD35D /* Debug */,
+				91FB87451CE2E6CE008AD35D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91FB87461CE2E6CE008AD35D /* Build configuration list for PBXNativeTarget "QiSmartCity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91FB87471CE2E6CE008AD35D /* Debug */,
+				91FB87481CE2E6CE008AD35D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		91FB87491CE2E6CE008AD35D /* Build configuration list for PBXNativeTarget "QiSmartCityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91FB874A1CE2E6CE008AD35D /* Debug */,
+				91FB874B1CE2E6CE008AD35D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		91FB874C1CE2E6CE008AD35D /* Build configuration list for PBXNativeTarget "QiSmartCityUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91FB874D1CE2E6CE008AD35D /* Debug */,
+				91FB874E1CE2E6CE008AD35D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91FB87161CE2E6CE008AD35D /* Project object */;
+}
