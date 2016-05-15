@@ -11,6 +11,7 @@
 		91245EF11CE4540000BBCFCA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91245EF01CE4540000BBCFCA /* LoginViewController.swift */; };
 		91245EF31CE4C7EC00BBCFCA /* StationAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91245EF21CE4C7EC00BBCFCA /* StationAnnotation.swift */; };
 		91245EF51CE4CD4B00BBCFCA /* MapViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91245EF41CE4CD4B00BBCFCA /* MapViewControllerDelegate.swift */; };
+		919DADFC1CE82CCA00BDA576 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 919DADFB1CE82CCA00BDA576 /* README.md */; };
 		91F1FF681CE3A11300E5EA3C /* SmartCityConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F1FF671CE3A11300E5EA3C /* SmartCityConstants.swift */; };
 		91F1FF701CE3AF7D00E5EA3C /* CoreDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F1FF691CE3AF7D00E5EA3C /* CoreDataStore.swift */; };
 		91F1FF711CE3AF7D00E5EA3C /* NetatmoLoginProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F1FF6A1CE3AF7D00E5EA3C /* NetatmoLoginProvider.swift */; };
@@ -53,6 +54,7 @@
 		91245EF01CE4540000BBCFCA /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		91245EF21CE4C7EC00BBCFCA /* StationAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationAnnotation.swift; sourceTree = "<group>"; };
 		91245EF41CE4CD4B00BBCFCA /* MapViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewControllerDelegate.swift; sourceTree = "<group>"; };
+		919DADFB1CE82CCA00BDA576 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		91F1FF671CE3A11300E5EA3C /* SmartCityConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmartCityConstants.swift; sourceTree = "<group>"; };
 		91F1FF691CE3AF7D00E5EA3C /* CoreDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStore.swift; sourceTree = "<group>"; };
 		91F1FF6A1CE3AF7D00E5EA3C /* NetatmoLoginProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetatmoLoginProvider.swift; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 				91FB87231CE2E6CE008AD35D /* MapViewController.swift */,
 				91245EF41CE4CD4B00BBCFCA /* MapViewControllerDelegate.swift */,
 				91FB87251CE2E6CE008AD35D /* Main.storyboard */,
+				919DADFB1CE82CCA00BDA576 /* README.md */,
 				91245EF01CE4540000BBCFCA /* LoginViewController.swift */,
 				91FB87281CE2E6CE008AD35D /* Assets.xcassets */,
 				91FB872A1CE2E6CE008AD35D /* LaunchScreen.storyboard */,
@@ -383,6 +386,7 @@
 				91245EF31CE4C7EC00BBCFCA /* StationAnnotation.swift in Sources */,
 				91F1FF721CE3AF7D00E5EA3C /* NetatmoMeasureProvider.swift in Sources */,
 				91F1FF751CE3AF7D00E5EA3C /* NetatmoStationProvider.swift in Sources */,
+				919DADFC1CE82CCA00BDA576 /* README.md in Sources */,
 				91F1FF791CE3BE3C00E5EA3C /* netatmoclient.xcdatamodeld in Sources */,
 				91FB87221CE2E6CE008AD35D /* AppDelegate.swift in Sources */,
 			);
