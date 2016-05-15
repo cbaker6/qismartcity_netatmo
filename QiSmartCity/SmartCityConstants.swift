@@ -9,18 +9,12 @@
 import Foundation
 
 // MARK: - HTTP Basic Authintication Info
-let kQSCNetatmoClientId             = "57336b68ec135e495ac48d6f"
-let kQSCNetatmoSecret               = "movVJ3PV3LQsLZLNJ93uStQseoYpdC7YcHigtjxwDtT"
+let kQSCNetatmoClientId             = ""
+let kQSCNetatmoSecret               = ""
 let kQSNetatmoTokenURL              = "https://api.netatmo.net/oauth2/token"
 let kQSNetatmoGetMeasureURL         = "https://api.netatmo.net/api/getmeasure"
 let kQSNetatmoGetDeviceListURL      = "https://api.netatmo.net/api/devicelist"
 let kQSNetatmoGetPublicDataURL      = "https://api.netatmo.com/api/getpublicdata"
-
-// MARK: - RESTful AlleyOop CA Functions
-let kQSCGET                         = "GET"
-let kQSCPOST                        = "POST"
-let kQSCPUT                         = "PUT"
-let kQSCDELETE                      = "DELETE"
 
 // MARK: - Coredata keys
 let kQSAuthorizationToken = "authToken"
@@ -60,8 +54,7 @@ enum NetatmoMeasureType: String {
     case WindAngle = "WindAngle"
     case GustStrength = "GustStrength"
     case GustAngle = "GustAngle"
-    
-    //NAMeasureTypeUnknown = -1
+
 }
 
 enum NetatmoDataType: String {
@@ -69,6 +62,15 @@ enum NetatmoDataType: String {
     case Humidity = "humidity"
     case Pressure = "pressure"
     case CO2 = "co2"
+    case Count = "The amount of values for the enum" //Hack to get total amount
+}
+
+enum ChartType: String {
+    case Line = "Line"
+    case Scatter = "Scatter"
+    case Bar = "Bar"
+    case Pie = "Pie"
+    case Count = "The amount of values for the enum" //Hack to get total amount
 }
 
 

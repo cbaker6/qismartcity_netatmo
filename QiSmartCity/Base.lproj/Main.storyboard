@@ -89,10 +89,10 @@
             </objects>
             <point key="canvasLocation" x="-312" y="217"/>
         </scene>
-        <!--Map View Controller-->
+        <!--Main View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="MapViewController" customModule="QiSmartCity" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="QiSmartCity" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -101,9 +101,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="70Y-e3-IyL" customClass="PieChartView" customModule="Charts">
+                                <rect key="frame" x="7" y="361" width="587" height="231"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VHH-5w-PEw" customClass="BarChartView" customModule="Charts">
+                                <rect key="frame" x="7" y="361" width="587" height="231"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="1" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e22-by-w0K" customClass="ScatterChartView" customModule="Charts">
+                                <rect key="frame" x="7" y="361" width="587" height="231"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jyU-Yh-XOX" customClass="LineChartView" customModule="Charts">
                                 <rect key="frame" x="7" y="361" width="587" height="231"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="HV5-Dt-Btx">
                                 <rect key="frame" x="7" y="88" width="587" height="265"/>
@@ -126,30 +138,42 @@
                         <constraints>
                             <constraint firstItem="HV5-Dt-Btx" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="68" id="1wH-Uv-A1S"/>
                             <constraint firstAttribute="trailingMargin" secondItem="20m-zo-HYy" secondAttribute="trailing" constant="-14" id="5CC-nN-G6m"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="70Y-e3-IyL" secondAttribute="bottom" constant="8" id="69o-Cd-jyM"/>
                             <constraint firstAttribute="trailingMargin" secondItem="20m-zo-HYy" secondAttribute="trailing" constant="-20" id="A3C-sW-viF"/>
                             <constraint firstItem="jyU-Yh-XOX" firstAttribute="top" secondItem="HV5-Dt-Btx" secondAttribute="bottom" constant="15" id="A5G-hD-pbz"/>
+                            <constraint firstItem="e22-by-w0K" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-13" id="A8s-KL-BLt"/>
+                            <constraint firstItem="70Y-e3-IyL" firstAttribute="top" secondItem="HV5-Dt-Btx" secondAttribute="bottom" constant="8" id="Cl7-di-848"/>
                             <constraint firstAttribute="trailingMargin" secondItem="20m-zo-HYy" secondAttribute="trailing" constant="-14" id="CrL-0x-ExB"/>
                             <constraint firstAttribute="trailingMargin" secondItem="20m-zo-HYy" secondAttribute="trailing" constant="314" id="DDG-ku-Oi1"/>
                             <constraint firstItem="HV5-Dt-Btx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DDJ-LM-Goc"/>
                             <constraint firstItem="HV5-Dt-Btx" firstAttribute="top" secondItem="20m-zo-HYy" secondAttribute="bottom" constant="3" id="Dqq-Et-T4Y"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="VHH-5w-PEw" secondAttribute="bottom" constant="8" id="Drt-X6-Dny"/>
                             <constraint firstItem="HV5-Dt-Btx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-13" id="G7W-HC-fXh"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="70Y-e3-IyL" secondAttribute="trailing" constant="-14" id="Hm0-AA-RbZ"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="jyU-Yh-XOX" secondAttribute="bottom" constant="8" id="RTM-pK-qAi"/>
                             <constraint firstItem="HV5-Dt-Btx" firstAttribute="top" secondItem="20m-zo-HYy" secondAttribute="bottom" constant="3" id="VhV-Lo-Wik"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="HV5-Dt-Btx" secondAttribute="bottom" constant="247" id="WFq-GC-oo2"/>
                             <constraint firstAttribute="trailingMargin" secondItem="HV5-Dt-Btx" secondAttribute="trailing" constant="-14" id="XQO-NP-hoy"/>
+                            <constraint firstItem="VHH-5w-PEw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-13" id="Y0C-Ej-0W0"/>
                             <constraint firstItem="jW3-0k-yXd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-13" id="YVd-09-M6R"/>
                             <constraint firstAttribute="trailingMargin" secondItem="jyU-Yh-XOX" secondAttribute="trailing" constant="-14" id="Zfh-zG-Vyt"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="VHH-5w-PEw" secondAttribute="trailing" constant="-14" id="aPU-9F-mwk"/>
                             <constraint firstItem="20m-zo-HYy" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="13" id="aj3-SE-JJI"/>
                             <constraint firstItem="HV5-Dt-Btx" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="47" id="c2I-M0-yJG"/>
+                            <constraint firstItem="VHH-5w-PEw" firstAttribute="top" secondItem="HV5-Dt-Btx" secondAttribute="bottom" constant="8" id="cWe-yB-QyD"/>
                             <constraint firstItem="20m-zo-HYy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="cnj-JR-cbo"/>
                             <constraint firstItem="jW3-0k-yXd" firstAttribute="top" secondItem="20m-zo-HYy" secondAttribute="bottom" constant="3" id="eaA-AV-9Wd"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="e22-by-w0K" secondAttribute="bottom" constant="8" id="eh4-qG-OnK"/>
+                            <constraint firstItem="e22-by-w0K" firstAttribute="top" secondItem="HV5-Dt-Btx" secondAttribute="bottom" constant="8" id="ggz-4m-sYl"/>
                             <constraint firstAttribute="trailingMargin" secondItem="jW3-0k-yXd" secondAttribute="trailing" constant="-14" id="h88-Ht-VP6"/>
                             <constraint firstItem="jW3-0k-yXd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-7" id="iTM-Sz-00I"/>
                             <constraint firstItem="HV5-Dt-Btx" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="47" id="mLl-Fb-EDQ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="e22-by-w0K" secondAttribute="trailing" constant="-14" id="obp-cf-Fhj"/>
                             <constraint firstItem="HV5-Dt-Btx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-13" id="q0w-gf-X0m"/>
                             <constraint firstItem="jW3-0k-yXd" firstAttribute="top" secondItem="20m-zo-HYy" secondAttribute="bottom" constant="8" id="rfQ-kE-MGe"/>
                             <constraint firstItem="jyU-Yh-XOX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-13" id="sD8-yt-mMh"/>
                             <constraint firstItem="jyU-Yh-XOX" firstAttribute="top" secondItem="HV5-Dt-Btx" secondAttribute="bottom" constant="8" id="sS5-Ki-NzE"/>
+                            <constraint firstItem="70Y-e3-IyL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-13" id="tMX-ye-fik"/>
                             <constraint firstItem="jW3-0k-yXd" firstAttribute="top" secondItem="HV5-Dt-Btx" secondAttribute="top" id="vgq-rd-KI4"/>
                             <constraint firstAttribute="trailingMargin" secondItem="HV5-Dt-Btx" secondAttribute="trailing" constant="-14" id="wpT-n9-eZp"/>
                             <constraint firstItem="20m-zo-HYy" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="13" id="zMQ-6j-05M"/>
@@ -177,9 +201,12 @@
                     <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
                     <nil key="simulatedTopBarMetrics"/>
                     <connections>
+                        <outlet property="barChartView" destination="VHH-5w-PEw" id="lF8-B6-DJy"/>
+                        <outlet property="lineChartView" destination="jyU-Yh-XOX" id="eTJ-ec-2UH"/>
                         <outlet property="locationPicker" destination="20m-zo-HYy" id="LVs-fC-HeO"/>
-                        <outlet property="scChartView" destination="jyU-Yh-XOX" id="ZMl-o1-cri"/>
-                        <outlet property="scMapView" destination="HV5-Dt-Btx" id="DZS-Af-uy9"/>
+                        <outlet property="mapView" destination="HV5-Dt-Btx" id="BdO-Cc-GQC"/>
+                        <outlet property="pieChartView" destination="70Y-e3-IyL" id="Fs4-Yd-MXZ"/>
+                        <outlet property="scatterChartView" destination="e22-by-w0K" id="ji0-IU-heT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
