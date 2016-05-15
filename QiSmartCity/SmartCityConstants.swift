@@ -9,8 +9,8 @@
 import Foundation
 
 // MARK: - HTTP Basic Authintication Info
-let kQSCNetatmoClientId             = ""
-let kQSCNetatmoSecret               = ""
+let kQSCNetatmoClientId             = "57336b68ec135e495ac48d6f"
+let kQSCNetatmoSecret               = "movVJ3PV3LQsLZLNJ93uStQseoYpdC7YcHigtjxwDtT"
 let kQSNetatmoTokenURL              = "https://api.netatmo.net/oauth2/token"
 let kQSNetatmoGetMeasureURL         = "https://api.netatmo.net/api/getmeasure"
 let kQSNetatmoGetDeviceListURL      = "https://api.netatmo.net/api/devicelist"
