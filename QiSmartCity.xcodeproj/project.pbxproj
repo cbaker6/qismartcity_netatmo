@@ -13,7 +13,7 @@
 		91245EF51CE4CD4B00BBCFCA /* MainViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91245EF41CE4CD4B00BBCFCA /* MainViewControllerDelegate.swift */; };
 		919DADFC1CE82CCA00BDA576 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 919DADFB1CE82CCA00BDA576 /* README.md */; };
 		919DADFE1CE90BB800BDA576 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 919DADFD1CE90BB800BDA576 /* LICENSE */; };
-		91F1FF681CE3A11300E5EA3C /* SmartCityConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F1FF671CE3A11300E5EA3C /* SmartCityConstants.swift */; };
+		91F1FF681CE3A11300E5EA3C /* QiSmartCityConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F1FF671CE3A11300E5EA3C /* QiSmartCityConstants.swift */; };
 		91F1FF701CE3AF7D00E5EA3C /* CoreDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F1FF691CE3AF7D00E5EA3C /* CoreDataStore.swift */; };
 		91F1FF711CE3AF7D00E5EA3C /* NetatmoLoginProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F1FF6A1CE3AF7D00E5EA3C /* NetatmoLoginProvider.swift */; };
 		91F1FF721CE3AF7D00E5EA3C /* NetatmoMeasureProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F1FF6B1CE3AF7D00E5EA3C /* NetatmoMeasureProvider.swift */; };
@@ -57,7 +57,7 @@
 		91245EF41CE4CD4B00BBCFCA /* MainViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewControllerDelegate.swift; sourceTree = "<group>"; };
 		919DADFB1CE82CCA00BDA576 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		919DADFD1CE90BB800BDA576 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
-		91F1FF671CE3A11300E5EA3C /* SmartCityConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmartCityConstants.swift; sourceTree = "<group>"; };
+		91F1FF671CE3A11300E5EA3C /* QiSmartCityConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QiSmartCityConstants.swift; sourceTree = "<group>"; };
 		91F1FF691CE3AF7D00E5EA3C /* CoreDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStore.swift; sourceTree = "<group>"; };
 		91F1FF6A1CE3AF7D00E5EA3C /* NetatmoLoginProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetatmoLoginProvider.swift; sourceTree = "<group>"; };
 		91F1FF6B1CE3AF7D00E5EA3C /* NetatmoMeasureProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetatmoMeasureProvider.swift; sourceTree = "<group>"; };
@@ -145,22 +145,22 @@
 			isa = PBXGroup;
 			children = (
 				91FB87211CE2E6CE008AD35D /* AppDelegate.swift */,
-				91F1FF671CE3A11300E5EA3C /* SmartCityConstants.swift */,
 				91F1FF691CE3AF7D00E5EA3C /* CoreDataStore.swift */,
+				91FB87231CE2E6CE008AD35D /* MainViewController.swift */,
+				91245EF41CE4CD4B00BBCFCA /* MainViewControllerDelegate.swift */,
 				91F1FF6A1CE3AF7D00E5EA3C /* NetatmoLoginProvider.swift */,
 				91F1FF6B1CE3AF7D00E5EA3C /* NetatmoMeasureProvider.swift */,
 				91F1FF6C1CE3AF7D00E5EA3C /* NetatmoModuleProvider.swift */,
 				91F1FF771CE3BE3C00E5EA3C /* netatmoclient.xcdatamodeld */,
 				91F1FF6D1CE3AF7D00E5EA3C /* NetatmoNetworkProvider.swift */,
 				91F1FF6E1CE3AF7D00E5EA3C /* NetatmoStationProvider.swift */,
-				91245EF21CE4C7EC00BBCFCA /* StationAnnotation.swift */,
 				91F1FF6F1CE3AF7D00E5EA3C /* NetworkStack.swift */,
-				91FB87231CE2E6CE008AD35D /* MainViewController.swift */,
-				91245EF41CE4CD4B00BBCFCA /* MainViewControllerDelegate.swift */,
+				91F1FF671CE3A11300E5EA3C /* QiSmartCityConstants.swift */,
+				91245EF21CE4C7EC00BBCFCA /* StationAnnotation.swift */,
+				91245EF01CE4540000BBCFCA /* LoginViewController.swift */,
 				91FB87251CE2E6CE008AD35D /* Main.storyboard */,
 				919DADFB1CE82CCA00BDA576 /* README.md */,
 				919DADFD1CE90BB800BDA576 /* LICENSE */,
-				91245EF01CE4540000BBCFCA /* LoginViewController.swift */,
 				91FB87281CE2E6CE008AD35D /* Assets.xcassets */,
 				91FB872A1CE2E6CE008AD35D /* LaunchScreen.storyboard */,
 				91FB872D1CE2E6CE008AD35D /* Info.plist */,
@@ -379,7 +379,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				91245EF11CE4540000BBCFCA /* LoginViewController.swift in Sources */,
-				91F1FF681CE3A11300E5EA3C /* SmartCityConstants.swift in Sources */,
+				91F1FF681CE3A11300E5EA3C /* QiSmartCityConstants.swift in Sources */,
 				91F1FF761CE3AF7D00E5EA3C /* NetworkStack.swift in Sources */,
 				91FB87241CE2E6CE008AD35D /* MainViewController.swift in Sources */,
 				91F1FF701CE3AF7D00E5EA3C /* CoreDataStore.swift in Sources */,

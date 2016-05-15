@@ -17,8 +17,6 @@ class NetatmoNetworkProvider  {
     private let networkStack = NetworkStack()
     private let loginProvider = NetatmoLoginProvider()
     
-    
-    
     init() {
         //assert(kQSCNetatmoClientId != nil,"Please provide your ClientID from Netatmo Dev Center (NetatmoCientConstants.swift)")
         //assert(kQSCNetatmoSecret != nil,"Please provide your ClientSecret from Netatmo Dev Center (NetatmoCientConstants.swift)")
