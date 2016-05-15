@@ -8,12 +8,19 @@
 
 import UIKit
 
+struct LatitudeLongitude {
+    var lat_ne: Double
+    var lon_ne: Double
+    var lat_sw: Double
+    var lon_sw: Double
+}
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+    
+    
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         return true

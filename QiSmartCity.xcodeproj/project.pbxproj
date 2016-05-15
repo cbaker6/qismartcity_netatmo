@@ -7,8 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3CB030A7F37FBD942C4ABBA5 /* Pods_QiSmartCity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C33B41EE34109E7CEF5F9C51 /* Pods_QiSmartCity.framework */; };
+		91245EF11CE4540000BBCFCA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91245EF01CE4540000BBCFCA /* LoginViewController.swift */; };
+		91245EF31CE4C7EC00BBCFCA /* StationAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91245EF21CE4C7EC00BBCFCA /* StationAnnotation.swift */; };
+		91245EF51CE4CD4B00BBCFCA /* MapViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91245EF41CE4CD4B00BBCFCA /* MapViewControllerDelegate.swift */; };
+		91F1FF681CE3A11300E5EA3C /* SmartCityConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F1FF671CE3A11300E5EA3C /* SmartCityConstants.swift */; };
+		91F1FF701CE3AF7D00E5EA3C /* CoreDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F1FF691CE3AF7D00E5EA3C /* CoreDataStore.swift */; };
+		91F1FF711CE3AF7D00E5EA3C /* NetatmoLoginProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F1FF6A1CE3AF7D00E5EA3C /* NetatmoLoginProvider.swift */; };
+		91F1FF721CE3AF7D00E5EA3C /* NetatmoMeasureProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F1FF6B1CE3AF7D00E5EA3C /* NetatmoMeasureProvider.swift */; };
+		91F1FF731CE3AF7D00E5EA3C /* NetatmoModuleProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F1FF6C1CE3AF7D00E5EA3C /* NetatmoModuleProvider.swift */; };
+		91F1FF741CE3AF7D00E5EA3C /* NetatmoNetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F1FF6D1CE3AF7D00E5EA3C /* NetatmoNetworkProvider.swift */; };
+		91F1FF751CE3AF7D00E5EA3C /* NetatmoStationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F1FF6E1CE3AF7D00E5EA3C /* NetatmoStationProvider.swift */; };
+		91F1FF761CE3AF7D00E5EA3C /* NetworkStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F1FF6F1CE3AF7D00E5EA3C /* NetworkStack.swift */; };
+		91F1FF791CE3BE3C00E5EA3C /* netatmoclient.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 91F1FF771CE3BE3C00E5EA3C /* netatmoclient.xcdatamodeld */; };
+		91F1FF7B1CE3DB8000E5EA3C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91F1FF7A1CE3DB8000E5EA3C /* CoreData.framework */; };
 		91FB87221CE2E6CE008AD35D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FB87211CE2E6CE008AD35D /* AppDelegate.swift */; };
-		91FB87241CE2E6CE008AD35D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FB87231CE2E6CE008AD35D /* ViewController.swift */; };
+		91FB87241CE2E6CE008AD35D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FB87231CE2E6CE008AD35D /* MapViewController.swift */; };
 		91FB87271CE2E6CE008AD35D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91FB87251CE2E6CE008AD35D /* Main.storyboard */; };
 		91FB87291CE2E6CE008AD35D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91FB87281CE2E6CE008AD35D /* Assets.xcassets */; };
 		91FB872C1CE2E6CE008AD35D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91FB872A1CE2E6CE008AD35D /* LaunchScreen.storyboard */; };
@@ -34,9 +48,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		166AF6D939D410980BD886F4 /* Pods-QiSmartCity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QiSmartCity.release.xcconfig"; path = "Pods/Target Support Files/Pods-QiSmartCity/Pods-QiSmartCity.release.xcconfig"; sourceTree = "<group>"; };
+		3ACD0CF7910C32BBABCE47AD /* Pods-QiSmartCity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QiSmartCity.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QiSmartCity/Pods-QiSmartCity.debug.xcconfig"; sourceTree = "<group>"; };
+		91245EF01CE4540000BBCFCA /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		91245EF21CE4C7EC00BBCFCA /* StationAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationAnnotation.swift; sourceTree = "<group>"; };
+		91245EF41CE4CD4B00BBCFCA /* MapViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewControllerDelegate.swift; sourceTree = "<group>"; };
+		91F1FF671CE3A11300E5EA3C /* SmartCityConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmartCityConstants.swift; sourceTree = "<group>"; };
+		91F1FF691CE3AF7D00E5EA3C /* CoreDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStore.swift; sourceTree = "<group>"; };
+		91F1FF6A1CE3AF7D00E5EA3C /* NetatmoLoginProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetatmoLoginProvider.swift; sourceTree = "<group>"; };
+		91F1FF6B1CE3AF7D00E5EA3C /* NetatmoMeasureProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetatmoMeasureProvider.swift; sourceTree = "<group>"; };
+		91F1FF6C1CE3AF7D00E5EA3C /* NetatmoModuleProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetatmoModuleProvider.swift; sourceTree = "<group>"; };
+		91F1FF6D1CE3AF7D00E5EA3C /* NetatmoNetworkProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetatmoNetworkProvider.swift; sourceTree = "<group>"; };
+		91F1FF6E1CE3AF7D00E5EA3C /* NetatmoStationProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetatmoStationProvider.swift; sourceTree = "<group>"; };
+		91F1FF6F1CE3AF7D00E5EA3C /* NetworkStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkStack.swift; sourceTree = "<group>"; };
+		91F1FF781CE3BE3C00E5EA3C /* netatmoclient.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = netatmoclient.xcdatamodel; sourceTree = "<group>"; };
+		91F1FF7A1CE3DB8000E5EA3C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		91FB871E1CE2E6CE008AD35D /* QiSmartCity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QiSmartCity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91FB87211CE2E6CE008AD35D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		91FB87231CE2E6CE008AD35D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		91FB87231CE2E6CE008AD35D /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		91FB87261CE2E6CE008AD35D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		91FB87281CE2E6CE008AD35D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91FB872B1CE2E6CE008AD35D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +76,7 @@
 		91FB873D1CE2E6CE008AD35D /* QiSmartCityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QiSmartCityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91FB87411CE2E6CE008AD35D /* QiSmartCityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiSmartCityUITests.swift; sourceTree = "<group>"; };
 		91FB87431CE2E6CE008AD35D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C33B41EE34109E7CEF5F9C51 /* Pods_QiSmartCity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QiSmartCity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +84,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91F1FF7B1CE3DB8000E5EA3C /* CoreData.framework in Frameworks */,
+				3CB030A7F37FBD942C4ABBA5 /* Pods_QiSmartCity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +106,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2EB6E80BD0B877C4797A60B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3ACD0CF7910C32BBABCE47AD /* Pods-QiSmartCity.debug.xcconfig */,
+				166AF6D939D410980BD886F4 /* Pods-QiSmartCity.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		91FB87151CE2E6CE008AD35D = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +122,8 @@
 				91FB87351CE2E6CE008AD35D /* QiSmartCityTests */,
 				91FB87401CE2E6CE008AD35D /* QiSmartCityUITests */,
 				91FB871F1CE2E6CE008AD35D /* Products */,
+				2EB6E80BD0B877C4797A60B0 /* Pods */,
+				A36B56A601B87D51829303BB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,8 +141,20 @@
 			isa = PBXGroup;
 			children = (
 				91FB87211CE2E6CE008AD35D /* AppDelegate.swift */,
-				91FB87231CE2E6CE008AD35D /* ViewController.swift */,
+				91F1FF671CE3A11300E5EA3C /* SmartCityConstants.swift */,
+				91F1FF691CE3AF7D00E5EA3C /* CoreDataStore.swift */,
+				91F1FF6A1CE3AF7D00E5EA3C /* NetatmoLoginProvider.swift */,
+				91F1FF6B1CE3AF7D00E5EA3C /* NetatmoMeasureProvider.swift */,
+				91F1FF6C1CE3AF7D00E5EA3C /* NetatmoModuleProvider.swift */,
+				91F1FF771CE3BE3C00E5EA3C /* netatmoclient.xcdatamodeld */,
+				91F1FF6D1CE3AF7D00E5EA3C /* NetatmoNetworkProvider.swift */,
+				91F1FF6E1CE3AF7D00E5EA3C /* NetatmoStationProvider.swift */,
+				91245EF21CE4C7EC00BBCFCA /* StationAnnotation.swift */,
+				91F1FF6F1CE3AF7D00E5EA3C /* NetworkStack.swift */,
+				91FB87231CE2E6CE008AD35D /* MapViewController.swift */,
+				91245EF41CE4CD4B00BBCFCA /* MapViewControllerDelegate.swift */,
 				91FB87251CE2E6CE008AD35D /* Main.storyboard */,
+				91245EF01CE4540000BBCFCA /* LoginViewController.swift */,
 				91FB87281CE2E6CE008AD35D /* Assets.xcassets */,
 				91FB872A1CE2E6CE008AD35D /* LaunchScreen.storyboard */,
 				91FB872D1CE2E6CE008AD35D /* Info.plist */,
@@ -125,6 +180,15 @@
 			path = QiSmartCityUITests;
 			sourceTree = "<group>";
 		};
+		A36B56A601B87D51829303BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91F1FF7A1CE3DB8000E5EA3C /* CoreData.framework */,
+				C33B41EE34109E7CEF5F9C51 /* Pods_QiSmartCity.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +196,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 91FB87461CE2E6CE008AD35D /* Build configuration list for PBXNativeTarget "QiSmartCity" */;
 			buildPhases = (
+				0869491F038A723B32B00EFC /* Check Pods Manifest.lock */,
 				91FB871A1CE2E6CE008AD35D /* Sources */,
 				91FB871B1CE2E6CE008AD35D /* Frameworks */,
 				91FB871C1CE2E6CE008AD35D /* Resources */,
+				EFCB9E431D20EF5913A93FBC /* Embed Pods Frameworks */,
+				4323310E9243E8F19ED71EBC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,12 +318,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0869491F038A723B32B00EFC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4323310E9243E8F19ED71EBC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QiSmartCity/Pods-QiSmartCity-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFCB9E431D20EF5913A93FBC /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QiSmartCity/Pods-QiSmartCity-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		91FB871A1CE2E6CE008AD35D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91FB87241CE2E6CE008AD35D /* ViewController.swift in Sources */,
+				91245EF11CE4540000BBCFCA /* LoginViewController.swift in Sources */,
+				91F1FF681CE3A11300E5EA3C /* SmartCityConstants.swift in Sources */,
+				91F1FF761CE3AF7D00E5EA3C /* NetworkStack.swift in Sources */,
+				91FB87241CE2E6CE008AD35D /* MapViewController.swift in Sources */,
+				91F1FF701CE3AF7D00E5EA3C /* CoreDataStore.swift in Sources */,
+				91F1FF731CE3AF7D00E5EA3C /* NetatmoModuleProvider.swift in Sources */,
+				91245EF51CE4CD4B00BBCFCA /* MapViewControllerDelegate.swift in Sources */,
+				91F1FF741CE3AF7D00E5EA3C /* NetatmoNetworkProvider.swift in Sources */,
+				91F1FF711CE3AF7D00E5EA3C /* NetatmoLoginProvider.swift in Sources */,
+				91245EF31CE4C7EC00BBCFCA /* StationAnnotation.swift in Sources */,
+				91F1FF721CE3AF7D00E5EA3C /* NetatmoMeasureProvider.swift in Sources */,
+				91F1FF751CE3AF7D00E5EA3C /* NetatmoStationProvider.swift in Sources */,
+				91F1FF791CE3BE3C00E5EA3C /* netatmoclient.xcdatamodeld in Sources */,
 				91FB87221CE2E6CE008AD35D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,6 +526,7 @@
 		};
 		91FB87471CE2E6CE008AD35D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ACD0CF7910C32BBABCE47AD /* Pods-QiSmartCity.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = QiSmartCity/Info.plist;
@@ -410,6 +538,7 @@
 		};
 		91FB87481CE2E6CE008AD35D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 166AF6D939D410980BD886F4 /* Pods-QiSmartCity.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = QiSmartCity/Info.plist;
@@ -484,6 +613,7 @@
 				91FB87481CE2E6CE008AD35D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		91FB87491CE2E6CE008AD35D /* Build configuration list for PBXNativeTarget "QiSmartCityTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +622,7 @@
 				91FB874B1CE2E6CE008AD35D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		91FB874C1CE2E6CE008AD35D /* Build configuration list for PBXNativeTarget "QiSmartCityUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,8 +631,22 @@
 				91FB874E1CE2E6CE008AD35D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		91F1FF771CE3BE3C00E5EA3C /* netatmoclient.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				91F1FF781CE3BE3C00E5EA3C /* netatmoclient.xcdatamodel */,
+			);
+			currentVersion = 91F1FF781CE3BE3C00E5EA3C /* netatmoclient.xcdatamodel */;
+			path = netatmoclient.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 91FB87161CE2E6CE008AD35D /* Project object */;
 }
