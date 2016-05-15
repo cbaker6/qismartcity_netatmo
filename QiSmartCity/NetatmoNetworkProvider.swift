@@ -42,7 +42,7 @@ class NetatmoNetworkProvider  {
             var stations = Array<NSManagedObject>()
             
             let postData = ["access_token":token!]
-            let url = NSURL(string: "https://api.netatmo.net/api/devicelist")
+            let url = NSURL(string: kQSNetatmoGetDeviceListURL)
             
             self.networkStack.callUrl(url!, method: .POST, arguments: postData) { (resultData, error) -> Void in
                 
@@ -118,7 +118,7 @@ class NetatmoNetworkProvider  {
             ]
             
             //Preparing string for to make a REST Post
-            let url = NSURL(string: "https://api.netatmo.com/api/getpublicdata")
+            let url = NSURL(string: kQSNetatmoGetPublicDataURL)
             
             self.networkStack.callUrl(url!, method: .POST, arguments: postData) { (resultData, error) -> Void in
                 

@@ -13,6 +13,8 @@ let kQSCNetatmoClientId             = ""
 let kQSCNetatmoSecret               = ""
 let kQSNetatmoTokenURL              = "https://api.netatmo.net/oauth2/token"
 let kQSNetatmoGetMeasureURL         = "https://api.netatmo.net/api/getmeasure"
+let kQSNetatmoGetDeviceListURL      = "https://api.netatmo.net/api/devicelist"
+let kQSNetatmoGetPublicDataURL      = "https://api.netatmo.com/api/getpublicdata"
 
 // MARK: - RESTful AlleyOop CA Functions
 let kQSCGET                         = "GET"
