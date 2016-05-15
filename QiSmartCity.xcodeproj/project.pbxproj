@@ -12,7 +12,7 @@
 		91245EF31CE4C7EC00BBCFCA /* StationAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91245EF21CE4C7EC00BBCFCA /* StationAnnotation.swift */; };
 		91245EF51CE4CD4B00BBCFCA /* MainViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91245EF41CE4CD4B00BBCFCA /* MainViewControllerDelegate.swift */; };
 		919DADFC1CE82CCA00BDA576 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 919DADFB1CE82CCA00BDA576 /* README.md */; };
-		919DADFE1CE90BB800BDA576 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 919DADFD1CE90BB800BDA576 /* LICENSE.txt */; };
+		919DADFE1CE90BB800BDA576 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 919DADFD1CE90BB800BDA576 /* LICENSE */; };
 		91F1FF681CE3A11300E5EA3C /* SmartCityConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F1FF671CE3A11300E5EA3C /* SmartCityConstants.swift */; };
 		91F1FF701CE3AF7D00E5EA3C /* CoreDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F1FF691CE3AF7D00E5EA3C /* CoreDataStore.swift */; };
 		91F1FF711CE3AF7D00E5EA3C /* NetatmoLoginProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F1FF6A1CE3AF7D00E5EA3C /* NetatmoLoginProvider.swift */; };
@@ -56,7 +56,7 @@
 		91245EF21CE4C7EC00BBCFCA /* StationAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationAnnotation.swift; sourceTree = "<group>"; };
 		91245EF41CE4CD4B00BBCFCA /* MainViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewControllerDelegate.swift; sourceTree = "<group>"; };
 		919DADFB1CE82CCA00BDA576 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
-		919DADFD1CE90BB800BDA576 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = SOURCE_ROOT; };
+		919DADFD1CE90BB800BDA576 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
 		91F1FF671CE3A11300E5EA3C /* SmartCityConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmartCityConstants.swift; sourceTree = "<group>"; };
 		91F1FF691CE3AF7D00E5EA3C /* CoreDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStore.swift; sourceTree = "<group>"; };
 		91F1FF6A1CE3AF7D00E5EA3C /* NetatmoLoginProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetatmoLoginProvider.swift; sourceTree = "<group>"; };
@@ -159,7 +159,7 @@
 				91245EF41CE4CD4B00BBCFCA /* MainViewControllerDelegate.swift */,
 				91FB87251CE2E6CE008AD35D /* Main.storyboard */,
 				919DADFB1CE82CCA00BDA576 /* README.md */,
-				919DADFD1CE90BB800BDA576 /* LICENSE.txt */,
+				919DADFD1CE90BB800BDA576 /* LICENSE */,
 				91245EF01CE4540000BBCFCA /* LoginViewController.swift */,
 				91FB87281CE2E6CE008AD35D /* Assets.xcassets */,
 				91FB872A1CE2E6CE008AD35D /* LaunchScreen.storyboard */,
@@ -302,7 +302,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				919DADFE1CE90BB800BDA576 /* LICENSE.txt in Resources */,
+				919DADFE1CE90BB800BDA576 /* LICENSE in Resources */,
 				91FB872C1CE2E6CE008AD35D /* LaunchScreen.storyboard in Resources */,
 				91FB87291CE2E6CE008AD35D /* Assets.xcassets in Resources */,
 				91FB87271CE2E6CE008AD35D /* Main.storyboard in Resources */,
