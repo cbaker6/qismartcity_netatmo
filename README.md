@@ -6,4 +6,4 @@ In order to use the applicaiton, you must create an account on https://dev.netat
 
 Original netatmo code was used from Thomas Kluge (https://github.com/thkl/NetatmoSwift). Modifications were made and additional code was added to provide the funcionality in this project
 
-In order for the code to work, you also need to add Charts (https://github.com/danielgindi/Charts) to the project. The easiest way to do this is via cocoapods, pod 'Charts' 
+In order for the code to work, you also need to add Charts (https://github.com/danielgindi/Charts) to the project. The easiest way to do this is via cocoapods, pod 'Charts'.
