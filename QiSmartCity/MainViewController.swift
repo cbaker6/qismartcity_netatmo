@@ -285,9 +285,15 @@ class MainViewController: UIViewController, UIPickerViewDataSource, UIPickerView
             }
             
             //Center of the map to the locaiton of the first station
-            if first_longitude != nil{
+            /*if first_longitude != nil{
                 let initialLocation = CLLocation(latitude: first_latitude!, longitude: first_longitude!)
                 self.centerMapOnLocation(initialLocation)
+            }*/
+            
+            //Zoom level for city
+            if first_longitude != nil{
+                let span = MKCoordinateSpanMake(0.35, 0.35)
+                self.mapView.setRegion(MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: first_latitude!, longitude: first_longitude!), span: span), animated: true)
             }
             
             //Add all new annotations
