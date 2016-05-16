@@ -22,7 +22,6 @@
 		91F1FF751CE3AF7D00E5EA3C /* NetatmoStationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F1FF6E1CE3AF7D00E5EA3C /* NetatmoStationProvider.swift */; };
 		91F1FF761CE3AF7D00E5EA3C /* NetworkStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F1FF6F1CE3AF7D00E5EA3C /* NetworkStack.swift */; };
 		91F1FF791CE3BE3C00E5EA3C /* netatmoclient.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 91F1FF771CE3BE3C00E5EA3C /* netatmoclient.xcdatamodeld */; };
-		91F1FF7B1CE3DB8000E5EA3C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91F1FF7A1CE3DB8000E5EA3C /* CoreData.framework */; };
 		91FB87221CE2E6CE008AD35D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FB87211CE2E6CE008AD35D /* AppDelegate.swift */; };
 		91FB87241CE2E6CE008AD35D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FB87231CE2E6CE008AD35D /* MainViewController.swift */; };
 		91FB87271CE2E6CE008AD35D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91FB87251CE2E6CE008AD35D /* Main.storyboard */; };
@@ -88,7 +87,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91F1FF7B1CE3DB8000E5EA3C /* CoreData.framework in Frameworks */,
 				3CB030A7F37FBD942C4ABBA5 /* Pods_QiSmartCity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
