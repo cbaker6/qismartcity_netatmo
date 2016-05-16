@@ -15,7 +15,7 @@ class NetworkStack: NSObject, NSURLSessionDelegate {
   enum httpMethod: String {
     case GET = "GET"
     case POST = "POST"
-    case HEAT = "HEAT"
+    case HEAT = "HEAD"
     case PUT = "PUT"
   }
   
